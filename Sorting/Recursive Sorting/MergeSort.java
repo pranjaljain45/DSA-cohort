@@ -68,7 +68,7 @@ public class MergeSort {
         // TEMP ARRAY KE ELEMNTS KO ARRAY ME SHIFT KRNA
 
         for (int i = low; i <= high; i++) {
-            arr[i] = temp.get(i - low);
+            arr[i] = temp.get(i - low); /* i - low : har bar hum ek particular section ko merge kr rhe hai and arrange kr rhe hai unke idx pr*/
         }
     }
 
