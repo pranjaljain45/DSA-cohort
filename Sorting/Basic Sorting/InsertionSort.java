@@ -19,7 +19,7 @@ public class InsertionSort {
         // INSERTION SORT
 
         for (int i = 0; i < n; i++) {
-            int j = i;
+            int j = i; // define the exact pos of an element
             while (j > 0 && arr[j - 1] > arr[j]) {/*
                                                    * jab j = 0 : loop me eneter nahi hoga ||
                                                    * j > 0 : last compare tbh hoga jab j = 1 and j - 1 = 0
