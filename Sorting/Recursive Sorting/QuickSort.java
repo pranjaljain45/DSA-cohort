@@ -1,7 +1,7 @@
 // DIVIDE AND CONQUER
 
 /*
- * PIVOT : ek pivot element vo array ka koi bhi element ho skta hai
+ * PIVOT : array ka koi bhi ek element ho skta hai
  * LEFT SIDE : jo elements pivot element se chote honge unhe left me rakh denge
  * RIGHT SIDE : jo elements pivot element se bde honge unhe right me rakh denge
  */
@@ -10,11 +10,10 @@
  * LOW : original array ka 1st idx
  HIGH : original array ka last idx
 
+ pivot as arr[low] : 1st element of array
+ 
  TWO POINTER APPRAOCH
- pivot as arr[low]
-
  i,j
-
  i = low j = high 
 
  abh check karenge PIVOT ELEMENT ke sath ith and jth idx value ko
@@ -23,10 +22,10 @@
  mil jaye toh swap
 
  jab i > j yani ki i cross j
- tbh stop hoajyenge aur j ki value ko swap kr denge pivot value se
+ tbh stop hoajyenge 
+ jth value and pivot val ko swap kr denge
 
  pivot value apni correct pos pr hai aur act as PARTITION ELEMENT
-
  */
 
 /*
@@ -51,11 +50,11 @@ public class QuickSort {
         int j = high;
 
         while (i < j) {
-            while (arr[i] <= pivot && i <= high - 1) { // phle bda element from start array
+            while (arr[i] <= pivot && i <= high - 1) { // phle bda element from starting of array
                 i++;
             }
 
-            while (arr[j] > pivot && j >= low + 1) { // phle chota element from end array
+            while (arr[j] > pivot && j >= low + 1) { // phle chota element from ending of array
                 j--;
             }
 
@@ -86,9 +85,7 @@ public class QuickSort {
     }
 
     public static int[] qs(int[] arr) {
-
         sort(arr, 0, arr.length - 1);
-
         return arr;
     }
 
