@@ -122,4 +122,10 @@ public class MergeSort {
     }
 }
 
+//TIME COMPLEXITY : O(nlogn)
 
+//har step pr array size is divide by 2
+
+//SPACE COMPLEXITY : O(n)
+
+// kuki temp array ka use kr rhe hai
