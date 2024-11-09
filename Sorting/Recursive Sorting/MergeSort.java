@@ -31,7 +31,7 @@ import java.util.*;
 
 public class MergeSort {
 
-    public static void merge(int arr[], int low, int mid, int high) {
+    public static void merge(int arr[], int low, int mid, int high) { // mid isliye kyuki righr array mid + 1 se start hoti hai
 
         ArrayList<Integer> temp = new ArrayList<>(); // temporary store all elements in sorted order
         int left = low; // LEFT array ka first idx
