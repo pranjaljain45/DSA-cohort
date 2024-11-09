@@ -6,10 +6,13 @@
 import java.util.*;
 
 public class SelectionSort {
+    
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt(); // enter num of elemnts
+        
         int arr[] = new int[n]; // reate an array
 
         for (int i = 0; i < n; i++) {
@@ -17,15 +20,19 @@ public class SelectionSort {
         }
 
         // SELECTION SORT
+        
         for (int i = 0; i < n; i++) {
             int mini = i; // mini ele ith idx pr hai
+            
             for (int j = n - 1; j >= i; j--) {
                 if (arr[mini] > arr[j]) {
+                    
                     mini = j; // update the mini ele idx
                 }
             }
 
             // swap the the ith idx and mini idx ele
+            
             int temp = arr[i];
             arr[i] = arr[mini];
             arr[mini] = temp;
