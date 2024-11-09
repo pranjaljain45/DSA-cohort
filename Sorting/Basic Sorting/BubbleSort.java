@@ -1,6 +1,5 @@
 /*
  * push MAX ele at the end of the array by doing ADJACENT SWAP
- * time complexity : O(n^2)
  * 
  * if array sorted : time complexity : O(n) kyuki if wali condition work hi nahi karegi
  */
@@ -44,3 +43,5 @@
          sc.close();
      }
  }
+
+/* TIME COMPLEXITY : O(n^2)*/
