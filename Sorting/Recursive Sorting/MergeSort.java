@@ -99,7 +99,8 @@ public class MergeSort {
 
         int arr[] = new int[n];
 
-        // eneter array
+        // enter array
+        
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
@@ -107,8 +108,11 @@ public class MergeSort {
         System.out.println();
 
         // calling divide function
+        
         divideArray(arr, 0, n - 1);
 
+        //print array
+        
         for (int val : arr) {
             System.out.print(val + " ");
         }
