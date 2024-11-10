@@ -1,0 +1,19 @@
+a kind of array jiska size define krne ki zarurat nahi aur size inc kr skte
+
+CREATING ARRAYLIST
+ArrayList < datatype > arr.name = new ArrayList<>();
+
+SIZE OF AN ARRAY
+arr.name.size();
+
+GET VALUE OF AN INDEX
+arr.name.get( index no )
+
+CHANGE VALUE OF AN INDEX
+arr.name.set( index, value )
+
+ADD VALUE
+arr.name.add( value )
+
+ADD VALUE TO AN INDEX
+arr.name.add( index no, value )
