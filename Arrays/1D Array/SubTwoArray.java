@@ -57,6 +57,7 @@ public class subTwoArray {
 
         int idx = 0;
         while (idx <= arr.length) {
+            
             if (arr[idx] == 0) {
                 idx++;
             } else {
