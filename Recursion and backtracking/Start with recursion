@@ -1,0 +1,7 @@
+RECURSION means call krna function ko ussi function mese
+
+FIRST CALL
+sabse phle function call ke phle wale statamenets run hogi
+
+AFTER CALL
+phir call ke baad wali statements run hogi
