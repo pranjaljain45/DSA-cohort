@@ -36,8 +36,8 @@ public class rotateArray {
             r %= arr.length;
         }
 
-        reverse(arr, 0, arr.length - r - 1);
-        reverse(arr, arr.length - r, arr.length - 1);
+        reverse(arr, 0, arr.length - r - 1);  // jis element se rotate krna hai usse phle wale lement
+        reverse(arr, arr.length - r, arr.length - 1); // jis element se rotate krna hai vo aur uske baad wale element
         reverse(arr, 0, arr.length - 1);
 
         for (int val : arr) {
