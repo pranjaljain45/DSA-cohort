@@ -2,7 +2,9 @@ import java.util.*;
 
 public class printFactorial {
 
-  static int calculateFactorial(int n) {
+ METHOD 1
+  
+ /* static int calculateFactorial(int n) {
 
     if (n == 0) {
       return 1;
@@ -12,7 +14,25 @@ public class printFactorial {
     int factorial = n * val;
 
     return factorial;
-  }
+  } */
+
+  METHOD 2
+  X^n = x^(n/2) * x^(n/2)
+   /* static int calculateFactorial(int n) {
+
+    if (n == 0) {
+      return 1;
+    }
+
+    int multi = power(m, n/2);
+    int m = multi * multi;
+
+    //WHEN N IS ODD
+    if(n % 2 == 1){
+        multi = multi * x;
+        }
+   return multi;
+  } */
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
