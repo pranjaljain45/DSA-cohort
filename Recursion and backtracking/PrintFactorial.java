@@ -29,7 +29,7 @@ public class printFactorial {
 
     //WHEN N IS ODD
     if(n % 2 == 1){
-        multi = multi * x;
+        m = m * x;
         }
    return multi;
   } */
