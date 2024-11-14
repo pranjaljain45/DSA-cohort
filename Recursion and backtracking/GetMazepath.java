@@ -46,10 +46,8 @@ public class getMazepath {
 
         ArrayList<String> st = findPath(1, 1, m, n);
 
-        for (String s : st) {
-            System.out.println(s);
-        }
-
+            System.out.println(st);
+      
         sc.close();
     }
 }
