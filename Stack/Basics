@@ -1,0 +1,28 @@
+STACK
+list of elements in horizontal order
+FIFO = first in first out
+
+
+
+//DECLARE STACK
+
+Stack <datatype> st.name = new Stack<>() 
+
+datatype = Integer, String
+
+// ADD VALUES
+
+st.name.push( val )
+
+// REMOVE VALUE
+
+st.name.pop( )
+
+//GET VALUE 
+
+st.name.peek ( )
+
+
+// SIZE
+
+st.name.size()
