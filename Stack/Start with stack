@@ -1,8 +1,8 @@
 STACK
 list of elements in horizontal order
-FIFO = first in first out
 
 
+LIFO = LAST IN FIRST OUT
 
 //DECLARE STACK
 
