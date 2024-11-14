@@ -39,9 +39,8 @@ public class getStairpath {
 
         ArrayList<String> path = findPath(n);
 
-        for (String s : path) {
-            System.out.println(s);
-        }
+            System.out.println(path);
+       
         sc.close();
     }
 }
