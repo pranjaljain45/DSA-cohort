@@ -19,21 +19,21 @@ public class balanceBrackets {
             if (ch == '(' || ch == '{' || ch == '[') {
                 balanced.push(ch);
             } else if (ch == ')') {
-                if (balanced.peek() != '(') {
+                if (balanced.isEmpty() || balanced.peek() != '(') {
                     System.out.println("Not balanced");
                     return;
                 } else {
                     balanced.pop();
                 }
             } else if (ch == '}') {
-                if (balanced.peek() != '{') {
+                if (balanced.isEmpty() || balanced.peek() != '{') {
                     System.out.println("Not balanced");
                     return;
                 } else {
                     balanced.pop();
                 }
             } else if (ch == ']') {
-                if (balanced.peek() != '[') {
+                if (balanced.isEmpty() || balanced.peek() != '[') {
                     System.out.println("Not balanced");
                     return;
                 } else {
@@ -41,26 +41,16 @@ public class balanceBrackets {
                 }
             }
 
-            // opening bracket > closing bracket
-
-            if (balanced.size() == 0) {
-                System.out.println(" Not balanced");
-                return;
-            } else {
-                System.out.println("Balanced");
-                return;
-            }
         }
 
-        // closing brackets > opening brackets
+        // closing brackets < opening brackets
 
-        if (balanced.size() >= 0) {
-            System.out.println("Not balanced");
-            return;
-        } else {
+        if (balanced.size() == 0) {
             System.out.println("Balanced");
-            return;
+        } else {
+            System.out.println("Not balanced");
         }
+
         sc.close();
     }
 }
