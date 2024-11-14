@@ -38,10 +38,8 @@ public class getSubsequence {
 
         // print string subsets
 
-        for (String s : ss) {
-            System.out.println(s);
-        }
-
+            System.out.println(ss);
+        
         sc.close();
     }
 }
