@@ -41,13 +41,21 @@ public class balanceBrackets {
                 }
             }
 
+            // opening bracket > closing bracket
+
+            if (balanced.size() == 0) {
+                System.out.println(" Not balanced");
+            } else {
+                System.out.println("Balanced");
+            }
         }
 
-        
-        if (balanced.size() == 0) {
-            System.out.println("Balanced");
-        } else {
+        // closing brackets > opening brackets
+
+        if (balanced.size() >= 0) {
             System.out.println("Not balanced");
+        } else {
+            System.out.println("Balanced");
         }
         sc.close();
     }
