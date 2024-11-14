@@ -39,10 +39,8 @@ public class getKeypadCombination {
 
         ArrayList<String> s = keypadCombination(str);
 
-        for (String ans : s) {
-            System.out.println(ans);
-        }
-
+            System.out.println(s);
+        
         sc.close();
     }
 }
