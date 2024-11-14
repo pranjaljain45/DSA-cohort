@@ -45,8 +45,10 @@ public class balanceBrackets {
 
             if (balanced.size() == 0) {
                 System.out.println(" Not balanced");
+                return;
             } else {
                 System.out.println("Balanced");
+                return;
             }
         }
 
@@ -54,8 +56,10 @@ public class balanceBrackets {
 
         if (balanced.size() >= 0) {
             System.out.println("Not balanced");
+            return;
         } else {
             System.out.println("Balanced");
+            return;
         }
         sc.close();
     }
