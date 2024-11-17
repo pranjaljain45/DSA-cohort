@@ -18,11 +18,13 @@ public class postEvaluationConversion {
 
       for (char ch : str.toCharArray()) {
         
-         if (Character.isDigit(ch)) {
+         if (Character.isDigit(ch)) {  //operand
             value.push(ch - '0');
-         } else if (Character.isLetter(ch)) {
+         } 
+         else if (Character.isLetter(ch)) { //alphabets 
             value.push(0);
-         } else {
+         } 
+         else {
             solve(value, ch);
          }
       }
