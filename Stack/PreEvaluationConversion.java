@@ -81,7 +81,7 @@ public class preEvaluationConversion {
       String pv1 = postfix.pop();
       String pv2 = postfix.pop();
 
-      postfix.push("(" + pv1 + pv2 + ch + ")");
+      postfix.push( pv1 + pv2 + ch );
 
    }
 }
