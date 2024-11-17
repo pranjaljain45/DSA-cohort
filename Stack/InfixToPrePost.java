@@ -27,9 +27,8 @@ public class InfixToPrePost {
             operator.push(ch);
          } 
          else if (Character.isLetterOrDigit(ch)) {
-            String s = Character.toString(ch);
-            preStr.push(s);
-            postStr.push(s);
+            preStr.push(s + "" );
+            postStr.push(s + "" );
          } 
          else if (ch == '+' || ch == '-' || ch == '/' || ch == '*') {
             while (operator.size() > 0 && operator.peek() != '('
