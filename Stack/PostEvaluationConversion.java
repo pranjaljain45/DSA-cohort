@@ -38,16 +38,14 @@
  
        for (char ch : str.toCharArray()) {
  
-          if (Character.isLetterOrDigit(ch)) {
-
-             String s = Character.toString(ch);
-             
-             infix.push(s);
-             prefix.push(s);
-          } 
-          else if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
+         if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
              convert(infix, prefix, ch);
-          }
+          } 
+         else {
+             infix.push(s +  "" ); // char to string
+             prefix.push(s + "" );
+          } 
+          
        }
  
        System.out.println(prefix.pop());
