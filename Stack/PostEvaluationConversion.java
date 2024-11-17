@@ -79,7 +79,7 @@
        String pv2 = prefix.pop();
        String pv1 = prefix.pop();
  
-       prefix.push("(" + ch + pv1 + pv2 + ")");
+       prefix.push( ch + pv1 + pv2 );
  
     }
  }
