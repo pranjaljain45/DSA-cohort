@@ -39,19 +39,15 @@ public class preEvaluationConversion {
       for (int i = str.length() - 1; i >= 0; i--) {
 
          char ch = str.charAt(i);
-
-         if (Character.isLetterOrDigit(ch)) {
-
-            String s = Character.toString(ch);
-
-            infix.push(s);
-            postfix.push(s);
-
-         } else if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
-            {
+         
+         if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
                convert(infix, postfix, ch);
             }
+        else {
+            infix.push(s + "" );
+            postfix.push(s + "" );
          }
+         
       }
 
       System.out.println(postfix.pop());
@@ -76,6 +72,7 @@ public class preEvaluationConversion {
    }
 
    static void convert(Stack<String> infix, Stack<String> postfix, char ch) {
+      
       String iv1 = infix.pop();
       String iv2 = infix.pop();
 
