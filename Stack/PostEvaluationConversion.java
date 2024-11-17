@@ -18,14 +18,17 @@ public class postEvaluationConversion {
 
       for (char ch : str.toCharArray()) {
         
-         if (Character.isDigit(ch)) {  //operand
-            value.push(ch - '0');
-         } 
-         else if (Character.isLetter(ch)) { //alphabets 
-            value.push(0);
+         if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {  
+            
+            int v2 = value.pop();
+            int v1 = value.pop();
+                                                                
+            int v = solve( v1, v2, ch);
+                                                                
+            value.push( v );
          } 
          else {
-            solve(value, ch);
+            value.push( ch - '0' );
          }
       }
      
@@ -51,7 +54,7 @@ public class postEvaluationConversion {
       sc.close();
    }
 
-   static void solve(Stack<Integer> value, char ch) {
+   static void solve( int v1, int v2, char ch ) {
 
       int v2 = value.pop();
       int v1 = value.pop();
