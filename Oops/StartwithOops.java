@@ -15,7 +15,7 @@ void main(){
 }
 person : class name
 
-objects : heap me jo instance banta hai jha data memebers or value store hoti hai 
+objects : heap me jo instance banta hai jha data memebers or value store hoti hai ( space allocate hota hai heap me jitna data memebers of zarurat hoti hai)
       eg p1
 
 stack : jo object declare kis hai heap me uska reference (4k, 5k...)
