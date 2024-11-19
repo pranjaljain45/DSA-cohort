@@ -1,0 +1,4 @@
+main me new keyword se space allocate hoti hai
+passing of values 
+constructor call - fn name ame sa class name, call when obj c=banta hai, obj ki data values ko set krta hai, automatically create ho jata hai (unparameterized), parameterized 
+                  construtor call kia toh default ht jata hai aur default chahiye toh usko likhna hoga
