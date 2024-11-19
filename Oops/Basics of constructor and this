@@ -28,7 +28,7 @@ CONSTRUCTOR
 
 THIS
   jis object se call krte hai parameterized fn ko toh uski data members ki value
-  eg 5k obj ki age 20 hai
+  eg ek oobj hai jiski refrence 5k hai toh 5k obj ki age 20 hai
 
 
 
