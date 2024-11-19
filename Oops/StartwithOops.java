@@ -13,7 +13,7 @@ void main(){
   p1.age = 10;
   p1.printAge();
 }
-
+person : class name
 
 objects : heap me jo instance banta hai jha data memebers or value store hoti hai 
       eg p1
@@ -21,3 +21,9 @@ objects : heap me jo instance banta hai jha data memebers or value store hoti ha
 stack : jo object declare kis hai heap me uska reference (4k, 5k...)
 
 fn call using objects : fnname( obj1, obj2,....)
+fn create calling objects : ps dtye fn name( cname obj1, cname obj2....){
+                            ........
+                                    }
+        eg static void beauty(person p1, person p2){
+                  .......
+                }
