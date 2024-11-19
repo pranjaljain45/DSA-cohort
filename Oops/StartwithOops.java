@@ -19,3 +19,5 @@ objects : heap me jo instance banta hai jha data memebers or value store hoti ha
       eg p1
 
 stack : jo object declare kis hai heap me uska reference (4k, 5k...)
+
+fn call using objects : fnname( obj1, obj2,....)
