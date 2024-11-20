@@ -1,0 +1,17 @@
+FIFO: FIRST IN FIRST OUT
+interface hota hai jisme fn define hote hai islo declare kia jata hai DEQUE CLASS se
+
+Queue < datatype > queue.name = new ArrayDeque<>();
+
+
+ADD VALUE
+
+q.name.add(value);
+
+REMOVE AND RETURN PEEK VALUE 
+
+q.name.remove();
+
+RETURN PEEK VALUE
+
+q.name.peek();
