@@ -1,0 +1,5 @@
+ARRAY hoti hai but continous store mahi hoti memory me
+stroe value in from nodes jisme value aur dusre node ka address jha new val store hoti hai aur next node ka address
+
+Size of LINKEDLIST > ARRAY
+

@@ -1,0 +1,16 @@
+// EK CLASS CHAHIYE
+
+ek node ke do part hote hai data + address of next node jo ki uski ke type ka hota hai
+    public class node{
+
+        int data; value of a node
+        Node next; address of next node
+        
+    }
+
+    public class linkedList{
+
+        Node head; first node address
+        Node tail; second node address
+        int size; size of linked list
+    }
