@@ -1,7 +1,7 @@
 // EK CLASS CHAHIYE
 
 ek node ke do part hote hai data + address of next node jo ki uski ke type ka hota hai
-    public class node{
+    public class Node{
 
         int data; value of a node
         Node next; address of next node
