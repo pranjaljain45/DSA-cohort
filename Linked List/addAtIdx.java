@@ -80,7 +80,7 @@ public class addAtIdx{
                 node.data = val;
 
                 Node temp = head;
-                for (int i = 0; i < idx; i++) {
+                for (int i = 0; i < idx - 1; i++) {
                     temp = temp.next;
                 }
 
