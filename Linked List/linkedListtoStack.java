@@ -34,7 +34,7 @@ public class LinkedListtoStack {
             }
         }
 
-        void display(){
+        void display() {
             System.out.println(list);
         }
     }
@@ -46,11 +46,12 @@ public class LinkedListtoStack {
 
         stack.push(10);
         stack.push(20);
+
         stack.display();
 
+        System.out.println("Stack size: " + stack.size()); // should return 2
         System.out.println("Top element: " + stack.top()); // Should print 20
         System.out.println("Popped element: " + stack.pop()); // Should print 20
-        System.out.println("Stack size: " + stack.size()); // Should print 1
 
         sc.close();
     }
