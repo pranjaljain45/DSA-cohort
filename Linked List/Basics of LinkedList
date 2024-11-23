@@ -11,7 +11,15 @@ LinkedList< datatype > list.name = new LinkedList<>();
 FUNCTIONS OF LL
 
 size : list.size();
-add values : list.addvalues(val);
+
+display list : syso(list name);
+
+FROM FISRT
+add values  : list.addFirst(val);
 top element : list.getFirst();
 pop element : list.removeFirst();
-display list : syso(list name);
+
+FROM LAST 
+add values : list.addLast(val);
+last element : list.getLast();
+pop element : list.removeLast();
