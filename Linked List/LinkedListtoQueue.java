@@ -20,7 +20,7 @@ public class LinkedListtoQueue {
 
         int top() {
             if (list.size() == 0) {
-                return -1; // Indicate stack is empty
+                return -1; // Indicate queue is empty
             } else {
                 return list.getFirst(); // Return the top element without removing it
             }
@@ -28,7 +28,7 @@ public class LinkedListtoQueue {
 
         int pop() {
             if (list.size() == 0) {
-                return -1; // Indicate stack is empty
+                return -1; // Indicate queue is empty
             } else {
                 return list.removeFirst(); // Remove and return the top element
             }
