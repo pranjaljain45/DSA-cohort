@@ -3,3 +3,15 @@ stroe value in from nodes jisme value aur dusre node ka address jha new val stor
 
 Size of LINKEDLIST > ARRAY
 
+
+DEFINE LINKEDLIST
+LinkedList< datatype > list.name = new LinkedList<>();
+
+
+FUNCTIONS OF LL
+
+size : list.size();
+add values : list.addvalues(val);
+top element : list.getFirst();
+pop element : list.removeFirst();
+display list : syso(list name);
