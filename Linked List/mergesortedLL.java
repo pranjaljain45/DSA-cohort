@@ -39,6 +39,8 @@ public class mergesortedLL {
         }
 
         // merge is a new object
+        // pas kiye do objs ko 
+        // return karega ek new list ko jo ki ek new obj hai original class ke
         static mergeList merge(mergeList list1, mergeList list2) { // object 4
 
             Node n1 = list1.head;
