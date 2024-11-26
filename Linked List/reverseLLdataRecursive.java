@@ -1,7 +1,7 @@
 /*
  * left : traverse start to end
  * right : traverse end to start
- * floor : check karega ki swap krna hai ki nahi
+ * floor : check karega ki swap krna hai ki nahi (swap mid tak hi hoga)
  */
 
 import java.util.*;
