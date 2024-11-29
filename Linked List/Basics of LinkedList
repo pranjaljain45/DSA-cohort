@@ -23,3 +23,22 @@ FROM LAST
 add values : list.addLast(val);
 last element : list.getLast();
 pop element : list.removeLast();
+
+
+
+ARRAYLIST TO ARRAY
+datatype[] arr.name = list.name.toArray(new dtype[0]);
+Integer[] array = list.toArray(new Integer[0]);
+
+
+ARRAY TO ARRAY
+list.add(arr.name[i]);
+
+
+
+
+
+
+
+
+
