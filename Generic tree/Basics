@@ -1,0 +1,24 @@
+TREE DS :  ek node hoti hai jo aage nodes me divide vo nodes phir aage divide hoti hai
+
+ROOT : main node jha se tree start hota hai 
+PARENT : vo node jo aage aur node me divide hoti hai
+CHILD : jin nodes me divide hoti hai unhe uss node ke children kehte hai
+LEAF : vo node jo divide nahi hoti hai
+
+
+         A
+       / | \
+      B  C  D
+     / \     \
+    E   F     G
+
+DEFINE :
+
+public static class Node{
+      int data;
+      ArrayList < Node > childern = new ArrayList<>();
+}
+public static void main(String[] args){
+      Node root;
+
+}
