@@ -21,7 +21,7 @@ public class genericTree {
 
     }
 
-    public static void levelOrderLineWise3(Node temp) {
+    public static void levelOrderLineWise2(Node temp) {
 
         Queue<Node> mq = new ArrayDeque<>();
 
@@ -41,6 +41,7 @@ public class genericTree {
                 }
 
             }
+            System.out.println();
         }
 
     }
@@ -71,6 +72,6 @@ public class genericTree {
             }
         }
 
-        levelOrderLineWise3(root);
+        levelOrderLineWise2(root);
     }
 }
