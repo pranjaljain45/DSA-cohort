@@ -38,7 +38,12 @@ public class genericTree {
 
             System.out.print(temp.data + " ");
 
-            // left to right
+            /*
+             * print : right to left
+             * stack : left to right
+             * 
+             */
+            
             if (level % 2 == 1) {
 
                 for (int i = 0; i < temp.children.size(); i++) {
@@ -47,7 +52,12 @@ public class genericTree {
                 }
 
             }
-            // right to left
+
+            /*
+             * print : left to right
+             * stack : right to left
+             */
+
             else {
 
                 for (int i = temp.children.size() - 1; i >= 0; i--) {
@@ -60,6 +70,8 @@ public class genericTree {
             if (ms.size() == 0) {
                 ms = cs;
                 cs = new Stack();
+                // System.out.println(level);
+
                 level++;
 
                 System.out.println();
