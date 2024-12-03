@@ -15,6 +15,8 @@ public class genricTree {
 
         for (Node child : node.children) {
             Boolean fic = nodeExist(child, data);
+
+             // If the data is found in this subtree,
             if (fic) {
                 return true;
             }
