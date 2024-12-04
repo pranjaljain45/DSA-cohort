@@ -1,8 +1,3 @@
-/*
- * no of children same
- * tree1 left to right child  == tree2 right to left child
- */
-
 import java.util.*;
 
 public class genericTree {
