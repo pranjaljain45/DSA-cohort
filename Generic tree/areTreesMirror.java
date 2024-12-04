@@ -19,7 +19,8 @@ public class genericTree {
         }
 
         for (int i = 0; i < n1.children.size(); i++) {
-            int j = n1.children.size() - 1 - i;
+            
+            int j = n1.children.size() - 1 - i;  // jitna i aage se utna j peeche se
 
             Node c1 = n1.children.get(i);
             Node c2 = n2.children.get(j);
