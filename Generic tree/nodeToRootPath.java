@@ -16,9 +16,11 @@ public class genricTree {
         }
 
         for (Node child : node.children) {
+            
             ArrayList<Integer> list2 = nodeTorootPath(child, data);
+            
             if (list2.size() > 0) {
-                list2.add(node.data);
+                list2.add(node.data);  // khudh ko bhi sdd karenge
                 return list2;
             }
         }
