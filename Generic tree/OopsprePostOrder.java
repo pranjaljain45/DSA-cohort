@@ -1,9 +1,3 @@
-/*
-* do nodes jo ek dusre se edges ke term me sabse zyda  * dur hai unke beech ka distance
-* 
-* deepestchildheight + 2nddeepestchildheight + 2
-*/
-
 import java.util.*;
 
 public class genericTree {
