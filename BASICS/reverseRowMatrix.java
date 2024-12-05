@@ -3,6 +3,10 @@ n == matrix length
 
 
 for (int i = 0; i < n; i++) {
+
+            /*
+            har baar do elemets ko swap kr rhe hai 1st & last isliye j half col hi travel karega
+            */
             
             for (int j = 0; j < n / 2; j++) {
 
